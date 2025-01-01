@@ -1481,6 +1481,18 @@ pub(crate) const LIST: &[(&str, TargetInfo<'static>)] = &[
         },
     ),
     (
+        "mips-mti-none-elf",
+        TargetInfo {
+            full_arch: "mips",
+            arch: "mips",
+            vendor: "mti",
+            os: "none",
+            env: "",
+            abi: "",
+            unversioned_llvm_target: "mips",
+        },
+    ),
+    (
         "mips-unknown-linux-gnu",
         TargetInfo {
             full_arch: "mips",
@@ -1574,6 +1586,18 @@ pub(crate) const LIST: &[(&str, TargetInfo<'static>)] = &[
             env: "musl",
             abi: "abi64",
             unversioned_llvm_target: "mips64el-unknown-linux-musl",
+        },
+    ),
+    (
+        "mipsel-mti-none-elf",
+        TargetInfo {
+            full_arch: "mipsel",
+            arch: "mips",
+            vendor: "mti",
+            os: "none",
+            env: "",
+            abi: "",
+            unversioned_llvm_target: "mipsel",
         },
     ),
     (
